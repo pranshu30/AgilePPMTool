@@ -1547,3 +1547,28 @@ Caused by: java.util.concurrent.CancellationException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-29 12:05:31.339
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ogJkyylh => OK
+
+!ENTRY org.eclipse.jdt.core 4 4 2019-01-29 15:23:49.513
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at org.eclipse.jdt.internal.core.index.DiskIndex.computeDocumentNames(DiskIndex.java:359)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:537)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:203)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndex(IndexManager.java:982)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1024)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:709)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:384)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-29 15:23:50.238
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oREDJfLj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-29 15:23:50.239
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oREDJfLj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-29 15:23:50.239
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-29 15:23:50.240
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oREDJfLj => OK
