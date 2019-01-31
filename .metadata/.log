@@ -1941,3 +1941,461 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
 >>>>>>> branch1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.584
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sZYCLLFA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.612
+!MESSAGE subscribing to classpath changes: sts4.classpath.sZYCLLFA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.612
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.613
+!MESSAGE subsribers = [sts4.classpath.sZYCLLFA]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.614
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.615
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.615
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.615
+!MESSAGE project MapValidationServiceError ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.615
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.616
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.616
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sZYCLLFA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.626
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.626
+!MESSAGE executing callback sts4.classpath.sZYCLLFA ppmtool false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.838
+!MESSAGE executing callback sts4.classpath.sZYCLLFA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.838
+!MESSAGE Preparing classpath changed notification MapValidationServiceError
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.842
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.843
+!MESSAGE executing callback sts4.classpath.sZYCLLFA MapValidationServiceError true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:47:52.847
+!MESSAGE executing callback sts4.classpath.sZYCLLFA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:21.399
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sZYCLLFA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:21.400
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sZYCLLFA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:21.401
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:21.402
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sZYCLLFA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.751
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zJWqABrR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.752
+!MESSAGE subscribing to classpath changes: sts4.classpath.zJWqABrR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.753
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.754
+!MESSAGE subsribers = [sts4.classpath.zJWqABrR]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.759
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.760
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.761
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.761
+!MESSAGE project MapValidationServiceError ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.762
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.762
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.763
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zJWqABrR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.776
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.777
+!MESSAGE executing callback sts4.classpath.zJWqABrR ppmtool false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.938
+!MESSAGE executing callback sts4.classpath.zJWqABrR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.939
+!MESSAGE Preparing classpath changed notification MapValidationServiceError
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.940
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.941
+!MESSAGE executing callback sts4.classpath.zJWqABrR MapValidationServiceError true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:50:49.944
+!MESSAGE executing callback sts4.classpath.zJWqABrR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:03.076
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zJWqABrR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:03.077
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zJWqABrR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:03.077
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:03.078
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zJWqABrR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.937
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KTxklsib
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.939
+!MESSAGE subscribing to classpath changes: sts4.classpath.KTxklsib
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.939
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.940
+!MESSAGE subsribers = [sts4.classpath.KTxklsib]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.941
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.942
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.942
+!MESSAGE project MapValidationServiceError ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.943
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.943
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KTxklsib => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.947
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.949
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.963
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:10.963
+!MESSAGE executing callback sts4.classpath.KTxklsib ppmtool false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:11.158
+!MESSAGE executing callback sts4.classpath.KTxklsib SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:11.159
+!MESSAGE Preparing classpath changed notification MapValidationServiceError
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:11.160
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:11.160
+!MESSAGE executing callback sts4.classpath.KTxklsib MapValidationServiceError true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:11.165
+!MESSAGE executing callback sts4.classpath.KTxklsib SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:13.920
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KTxklsib
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:13.921
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KTxklsib
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:13.922
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:13.923
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KTxklsib => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.691
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yKChqTyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.692
+!MESSAGE subscribing to classpath changes: sts4.classpath.yKChqTyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.692
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.693
+!MESSAGE subsribers = [sts4.classpath.yKChqTyO]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.694
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.695
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.696
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.697
+!MESSAGE project MapValidationServiceError ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.697
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.698
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.698
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yKChqTyO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.708
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.708
+!MESSAGE executing callback sts4.classpath.yKChqTyO ppmtool false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.871
+!MESSAGE executing callback sts4.classpath.yKChqTyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.872
+!MESSAGE Preparing classpath changed notification MapValidationServiceError
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.873
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.874
+!MESSAGE executing callback sts4.classpath.yKChqTyO MapValidationServiceError true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:19.877
+!MESSAGE executing callback sts4.classpath.yKChqTyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:25.593
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yKChqTyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:25.594
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yKChqTyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:25.595
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:25.596
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yKChqTyO => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-01-31 09:51:31.048
+!MESSAGE java.util.concurrent.CancellationException
+!STACK 0
+java.util.concurrent.ExecutionException: java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:593)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$8(LanguageServiceAccessor.java:372)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:374)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:284)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:444)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.stop(LanguageServerWrapper.java:352)
+	at org.eclipse.lsp4e.LanguageServerWrapper.disconnect(LanguageServerWrapper.java:508)
+	at org.eclipse.lsp4e.LanguageServerWrapper$1.bufferDisposed(LanguageServerWrapper.java:125)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager$12.run(TextFileBufferManager.java:789)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.fireBufferDisposed(TextFileBufferManager.java:786)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.disconnect(TextFileBufferManager.java:206)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.disposeFileInfo(TextFileDocumentProvider.java:698)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.disposeFileInfo(CompilationUnitDocumentProvider.java:1268)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.disconnect(TextFileDocumentProvider.java:655)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.disconnect(CompilationUnitDocumentProvider.java:1336)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.disposeDocumentProvider(AbstractTextEditor.java:4466)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.disposeDocumentProvider(AbstractDecoratedTextEditor.java:1458)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.dispose(AbstractTextEditor.java:4348)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.dispose(AbstractDecoratedTextEditor.java:389)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.dispose(JavaEditor.java:2682)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.dispose(CompilationUnitEditor.java:1524)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:264)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:424)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1001)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:175)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:87)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:114)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:492)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:967)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:886)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:881)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:865)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:186)
+	at sun.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:91)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:307)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1380)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1310)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1268)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1254)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1122)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1957)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:336)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-01-31 09:51:36.251
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:593)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$8(LanguageServiceAccessor.java:372)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:374)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:284)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:444)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverResults(LSBasedHover.java:333)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.initiateHoverRequest(LSBasedHover.java:318)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:189)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.344
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jbJJiGWY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.344
+!MESSAGE subscribing to classpath changes: sts4.classpath.jbJJiGWY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.345
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.346
+!MESSAGE subsribers = [sts4.classpath.jbJJiGWY]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.346
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.348
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.349
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.349
+!MESSAGE project MapValidationServiceError ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.350
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.350
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.351
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jbJJiGWY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.357
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.358
+!MESSAGE executing callback sts4.classpath.jbJJiGWY ppmtool false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.509
+!MESSAGE executing callback sts4.classpath.jbJJiGWY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.509
+!MESSAGE Preparing classpath changed notification MapValidationServiceError
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.510
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.511
+!MESSAGE executing callback sts4.classpath.jbJJiGWY MapValidationServiceError true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-01-31 09:51:40.514
+!MESSAGE executing callback sts4.classpath.jbJJiGWY SUCCESS [done]
