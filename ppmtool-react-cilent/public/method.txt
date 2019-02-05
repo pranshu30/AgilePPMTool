@@ -1,0 +1,22 @@
+Update
+Linking the UpdateProject.js to ProjectItem link.
+
+For Redux
+a) Defining the type of action in types.js
+b) Update the root reducer i.e. index.js in reducer (in update not required)
+c) Update the projectReducer.js
+d) Update to projectactions.js file
+e) Update UpdateProject.js
+    componentDidMount
+    UpdateProject.propTypes
+    connect
+    mapStatetoProps
+
+
+    {
+    projects: state.projects.filter(
+          project => project.projectIdentifier !== action.payload
+        )
+      }
+
+       //"http://localhost:8080"

@@ -1,0 +1,15 @@
+//Type of actions we will be working with.
+//We will first work with GET ERROR action from spring boot
+
+export const GET_ERRORS = "GET_ERRORS";
+
+//to get project
+export const GET_PROJECTS = "GET_PROJECTS";
+
+//to update project
+
+export const GET_PROJECT = "GET_PROJECT";
+
+//to delete project
+
+export const DELETE_PROJECT = "DELETE_PROJECT";

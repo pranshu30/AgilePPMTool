@@ -22,6 +22,7 @@ import com.example.demo.services.ProjectService;
 
 @RestController
 @RequestMapping("/api/project")
+@CrossOrigin
 public class ProjectController {
 
     @Autowired
