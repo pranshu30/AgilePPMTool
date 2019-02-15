@@ -3,9 +3,10 @@ package com.example.demo.domain;
 import javax.persistence.*;
 import javax.validation.constraints.*;
 
-import org.hibernate.annotations.UpdateTimestamp;
+
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.util.Date;
 
@@ -34,7 +35,47 @@ public class Project {
     @JsonFormat(pattern = "yyyy-mm-dd")
     private Date updated_At;
 
-    public Project() {
+    //one to one with Backlog
+    @OneToOne(fetch=FetchType.EAGER,cascade=CascadeType.ALL,mappedBy="project")
+    //Eager:When we load Project object Backlog info is readily available
+    //Cascade.All:if we delete project object, all child class(project task) is deleted
+    //if child class is deleted, project object is not deleted.
+    @JsonIgnore  //For ignoring backlog and project task values
+    private Backlog backlog;
+    
+    //Many to one with User
+    @ManyToOne(fetch =FetchType.LAZY)
+    @JsonIgnore
+    private User user; 
+    
+    private String projectLeader;
+  
+    
+    public String getProjectLeader() {
+		return projectLeader;
+	}
+
+	public void setProjectLeader(String projectLeader) {
+		this.projectLeader = projectLeader;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public Backlog getBacklog() {
+		return backlog;
+	}
+
+	public void setBacklog(Backlog backlog) {
+		this.backlog = backlog;
+	}
+
+	public Project() {
     }
 
     public Long getId() {

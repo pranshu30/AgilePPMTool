@@ -1,0 +1,37 @@
+Spring Security
+
+#Perist:Live after the application is shutdown
+
+# First we are creating are customized error message for login authentication.
+	Developed 1.Invalid Login Response(exception package):For exception msg
+			  2.SecurityConfig and JwtAuthenticateEntryPoint in security package.
+			  
+			  
+#User details
+	1. User.java,UserRepostory, UserService and same as previous problems
+	
+	
+# Doubts:userValidator.validate(newUser, result) in usercontroller.java
+
+
+#JWT
+	1. User Repo
+	2.Create custom username found service
+	3.Create security constant
+	4.Payaload pacakge - a)loginrequest(check login info) b)JWTResponse (to generate JWT token after successful login,redux can keep the token)
+	5.Overide configure method in Securityconfig.java to generate JWT Token  
+	
+#JWT filter : you can use to edit the project, AUthorization on putting the token
+		2. Get the user id from the token after successful login
+		3.JwtAuthenticationFilter:to check token is from right source
+		
+		
+#Adding User to Project
+1. ProjectController:Add Principal :Owner of token i.e username
+2. ProjectService		
+
+
+
+
+
+#Edit Project controller and service to add user to CRUD operation

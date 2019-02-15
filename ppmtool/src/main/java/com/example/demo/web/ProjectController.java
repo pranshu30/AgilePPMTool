@@ -1,5 +1,6 @@
 package com.example.demo.web;
 
+import java.security.Principal;
 import java.util.*;
 
 import javax.validation.Valid;
@@ -33,30 +34,30 @@ public class ProjectController {
 
 
     @PostMapping("")
-    public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project,BindingResult result){
+    public ResponseEntity<?> createNewProject(@Valid @RequestBody Project project,BindingResult result,Principal principal){
     	ResponseEntity<?> error = mapValidationServiceError.MapValidationError(result);
     	if(error!=null) return error;
         
     	
-    	Project project1 = projectService.saveOrUpdateProject(project);
-        return new ResponseEntity<Project>(project, HttpStatus.CREATED);
+    	Project project1 = projectService.saveOrUpdateProject(project,principal.getName());
+        return new ResponseEntity<Project>(project1, HttpStatus.CREATED);
     }
     
     @GetMapping("/{projectId}")
-    public ResponseEntity<?> getProjectById(@PathVariable String projectId){
-    	Project project = projectService.findProjectByIdentifier(projectId);
+    public ResponseEntity<?> getProjectById(@PathVariable String projectId,Principal principal){
+    	Project project = projectService.findProjectByIdentifier(projectId,principal.getName());
     	return new ResponseEntity<Project>(project,HttpStatus.OK);
     }
 
     @GetMapping("/all")
-    public Iterable<Project> getAllProject(){
+    public Iterable<Project> getAllProject(Principal principal){
     	
-    	return projectService.findAllProject();
+    	return projectService.findAllProject(principal.getName());
     }
     
     @DeleteMapping("/{projectId}")
-    public ResponseEntity<?> deleteProjectById(@PathVariable String projectId){
-    	projectService.DeleteProjectByIdentifier(projectId);
+    public ResponseEntity<?> deleteProjectById(@PathVariable String projectId,Principal principal){
+    	projectService.DeleteProjectByIdentifier(projectId,principal.getName());
     	return new ResponseEntity<String>("Project with ID: '"+projectId+"' was deleted",HttpStatus.OK);
     }
     

@@ -6,7 +6,6 @@ import CreateProjectButton from "./Project/CreateProjectButton";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getProjects } from "../actions/projectActions";
-import classnames from "classnames";
 
 class Dashboard extends Component {
   componentDidMount() {
@@ -37,7 +36,7 @@ class Dashboard extends Component {
 
 //Tell react this function is required to connect
 Dashboard.propTypes = {
-  getProject: PropTypes.func.isRequired,
+  getProjects: PropTypes.func.isRequired,
   project: PropTypes.object.isRequired
 };
 

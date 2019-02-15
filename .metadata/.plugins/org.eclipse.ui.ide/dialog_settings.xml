@@ -18,4 +18,11 @@
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 		</list>
 	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="875" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="711" key="DIALOG_HEIGHT"/>
+		<item value="534" key="DIALOG_X_ORIGIN"/>
+		<item value="47" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
